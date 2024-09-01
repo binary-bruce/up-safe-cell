@@ -1,6 +1,7 @@
 //! Uniprocessor interior mutability primitives
 
 use core::cell::{RefCell, RefMut};
+use core::marker::Sync;
 
 /// Wrap a static data structure inside it so that we are
 /// able to access it without any `unsafe`.

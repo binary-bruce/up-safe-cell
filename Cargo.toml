@@ -1,5 +1,5 @@
 [package]
-name = "up_safe_cell"
+name = "up-safe-cell"
 version = "0.1.0"
 edition = "2021"
 

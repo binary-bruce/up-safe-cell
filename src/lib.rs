@@ -1,5 +1,7 @@
 //! Uniprocessor interior mutability primitives
 
+#![no_std]
+
 use core::cell::{RefCell, RefMut};
 use core::marker::Sync;
 
